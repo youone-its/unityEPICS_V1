@@ -4,9 +4,12 @@ using UnityEngine;
 
 public enum ArticleID
 {
-    Bunga1,
-    Bunga2,
-    Bunga3
+    hias,
+    obat,
+    kayu,
+    unik,
+    makan,
+    tropis
 }
 
 [System.Serializable]

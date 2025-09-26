@@ -6,6 +6,7 @@ using UnityEngine;
 public class DetailedArticleData
 {
     public string key;         // key untuk matching dengan thumbnail
+    [TextArea(5,10)]
     public string title;       // judul artikel
     public Sprite image;       // gambar artikel
 }

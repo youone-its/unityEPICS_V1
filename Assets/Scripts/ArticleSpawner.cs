@@ -25,6 +25,7 @@ public class ArticleSpawner : MonoBehaviour
             item.ID = article.id;
             item.Title = article.title;
             item.Thumbnail = article.thumbnail;
+            item.sceneToLoad = article.sceneToLoad;
 
             // isi ke UI
             TMP_Text caption = newItem.transform.Find("Text (TMP)").GetComponent<TMP_Text>();

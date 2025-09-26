@@ -88,7 +88,10 @@ public class FilterManager : MonoBehaviour
     }
 
     // === WRAPPER METHODS ===
-    public void ShowBunga1() => ShowByID(ArticleID.Bunga1);
-    public void ShowBunga2() => ShowByID(ArticleID.Bunga2);
-    public void ShowBunga3() => ShowByID(ArticleID.Bunga3);
+    public void ShowBungaHias() => ShowByID(ArticleID.hias);
+    public void ShowBungaObat() => ShowByID(ArticleID.obat);
+    public void ShowBungaKayu() => ShowByID(ArticleID.kayu);
+    public void ShowBungaMakan() => ShowByID(ArticleID.makan);
+    public void ShowBungaUnik() => ShowByID(ArticleID.unik);
+    public void ShowBungaTropis() => ShowByID(ArticleID.tropis);
 }
